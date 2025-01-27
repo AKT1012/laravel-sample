@@ -174,3 +174,9 @@
         </div>
     </body>
 </html>
+
+<form action="/threads" method="POST">
+    @csrf
+    <input type="text" name="tags" placeholder="タグをカンマ区切りで入力">
+    <button type="submit">作成</button>
+</form>
